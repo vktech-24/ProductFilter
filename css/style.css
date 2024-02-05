@@ -77,3 +77,35 @@ body{
 .box img:hover{
     transform: scale(1.5);
 }
+
+@media only screen and (max-width:600px){
+
+    .control{
+        width: 100%;
+
+    }
+
+    #search{
+        width: 100px;
+        height: 25px;
+        outline: none;
+        border: 2px solid #00b894;
+        border-radius: 3px;
+        padding: 0px 10px;
+        font-size: 0.8rem;
+    }
+
+    .btn-group button{
+        width: 70px;
+        height: 30px;
+        border: none;
+        font-size: 0.8rem;
+        background-color: #00b894;
+        color: rgb(255, 255, 255);
+        border: 2px solid #00b894;
+        cursor: pointer;
+        transition: 0.3s;
+        border-radius: 3px;
+        margin: 3px;
+    }
+}
